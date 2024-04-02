@@ -4,7 +4,9 @@ const ditto = require('./pokemon/ditto.json')
 const app = express()
 
 const PORT = process.env.PORT ?? 1234
-
+//Como hacer un middleware con express de forma nativa
+//app.use(express.json())
+//Como hacer un middleware desde 0
 //El middlewae es una función que se ejecuta entre la petición y la respuesta
 app.use((req, res, next) => {
   if(req.method !== 'POST') return next()
