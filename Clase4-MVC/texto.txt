@@ -1,0 +1,10 @@
+Covnertimos los file de la clase anterior 
+de CommonJS (require y module.exports)
+a ESModules(import/export)
+
+Para migrar los daos, hay que especificarel tipo del proyecto en el package.json
+"type": "commonjs" (default) => "type": "module"
+convertir todas las importaciones con el atajo
+Añadir las extensiones (en common no son obligatorias, en ESModules si)
+
+Modelo Vista Arcitectura MVC proporciona una estructura que separa la aplicación en tres componentes interconectados y relacionados entre si
